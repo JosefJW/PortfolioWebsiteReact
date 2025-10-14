@@ -1,0 +1,175 @@
+[
+  {
+    "year": "2025-26",
+    "semesters": [
+      {
+        "name": "Spring",
+        "courses": [
+          {
+            "code": "Comp Sci 571",
+            "title": "Building User Interfaces",
+            "description": "Build competence in implementing state of the art UI paradigms, such as event-driven interfaces, direct-manipulation interfaces, and dialogue-based interaction. Learn methods for capturing, interpreting, and responding to different forms of user input and states."
+          },
+          {
+            "code": "Comp Sci 536",
+            "title": "Introduction to Programming Languages and Compilers",
+            "description": "Introduction to the theory and practice of compiler design. Comparison of features of several programming languages and their implications for implementation techniques."
+          },
+          {
+            "code": "Stat 309",
+            "title": "Introduction to Probability and Mathematical Statistics I",
+            "description": "Probability and combinatorial methods, discrete and continuous, univariate and multivariate distributions, expected values, moments, normal distribution and derived distributions, estimation."
+          },
+          {
+            "code": "LIS 461",
+            "title": "Data and Algorithms: Ethics and Policy",
+            "description": "An introduction to ethical, legal, and policy issues related to analytics, big data, and algorithms to support decision making."
+          },
+          {
+            "code": "Engl 176",
+            "title": "Topics in Literature and Film",
+            "description": "An introduction to the interplay of literature and film in English, with a focus on the analysis of novels, stories, poems and other writings and their representation and transformation in and through film."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2024-25",
+    "semesters": [
+      {
+        "name": "Spring",
+        "courses": [
+          {
+            "code": "Comp Sci 577",
+            "title": "Introduction to Algorithms",
+            "description": "Basic paradigms for the design and analysis of efficient algorithms: greed, divide-and-conquer, dynamic programming, reductions, and the use of randomness. Computational intractability including typical NP-complete problems and ways to deal with them.",
+            "grade": "A"
+          },
+          {
+            "code": "Comp Sci 537",
+            "title": "Introduction to Operating Systems",
+            "description": "Input-output hardware, interrupt handling, properties of magnetic tapes, discs and drums, associative memories and virtual address translation techniques. Batch processing, time sharing and real-time systems, scheduling resource allocation, modular software systems, performance measurement and system evaluation.",
+            "grade": "A"
+          },
+          {
+            "code": "Stat 340",
+            "title": "Data Science Modeling II",
+            "description": "Explore, model, and analyze data using R. Topics include basic probability models, the central limit theorem, Monte Carlo simulation, one- and two-sample hypothesis testing, Bayesian inference, linear and logistic regression, ANOVA, the bootstrap, random forests, and cross-validation. Features the analysis of real-world data sets and the communication of findings in a clear and reproducible manner within a project setting.",
+            "grade": "A"
+          },
+          {
+            "code": "Biochem 104",
+            "title": "Molecules to Life and Science",
+            "description": "Introduction to how life works at a molecular level and the evolutionary paths that led to the great diversity of life on our planet.",
+            "grade": "A"
+          }
+        ]
+      },
+      {
+        "name": "Fall",
+        "courses": [
+          {
+            "code": "Math 341",
+            "title": "Linear Algebra",
+            "description": "The theory of linear algebra with an introduction to proofs and proof writing. Topics include vector spaces, linear dependence, span, basis, linear transformations, kernel, image, inner products and inner product spaces, geometry, eigenvalues, eigenvectors, standard matric factorizations. Other content includes basic set theory, logical operations, quantifiers, direct and indirect arguments, and induction.",
+            "grade": "A"
+          },
+          {
+            "code": "Math 240",
+            "title": "Introduction to Discrete Mathematics",
+            "description": "Basic concepts of logic, sets, partial order and other relations, and functions. Basic concepts of mathematics (definitions, proofs, sets, functions, and relations) with a focus on discrete structures: integers, bits, strings, trees, and graphs. Propositional logic, Boolean algebra, and predicate logic. Mathematical induction and recursion. Invariants and algorithmic correctness. Recurrences and asymptotic growth analysis. Fundamentals of counting.",
+            "grade": "A"
+          },
+          {
+            "code": "Comp Sci 540",
+            "title": "Introduction to Artificial Intelligence",
+            "description": "Principles of knowledge-based search techniques, automatic deduction, knowledge representation using predicate logic, machine learning, and probabilistic reasoning. Applications in tasks such as problem solving, data mining, game playing, natural language understanding, computer vision, speech recognition, and robotics.",
+            "grade": "A"
+          },
+          {
+            "code": "Comp Sci 354",
+            "title": "Machine Organization and Programming",
+            "description": "An introduction to fundamental structures of computer systems and the C programming language with a focus on the low-level interrelationships and impacts on performance. Topics include the virtual address space and virtual memory, the heap and dynamic memory management, the memory hierarchy and caching, assembly language and the stack, communication and interrupts/signals, compiling, and assemblers/linkers.",
+            "grade": "A"
+          },
+          {
+            "code": "Comp Sci 320",
+            "title": "Data Science Programming II",
+            "description": "Implement data structures to efficiently represent datasets. Software-engineering tools such as version control and Python virtual enviroments will be introduced, with an emphasis on reproducibility of analysis. Tracing and A/B testing will be introduced as techniques for generating meaningful datasets. Introduces basic classification, clustering, optimization, and simulation techniques.",
+            "grade": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2023-24",
+    "semesters": [
+      {
+        "name": "Spring",
+        "courses": [
+          {
+            "code": "Math 234",
+            "title": "Calculus: Functions of Several Variables",
+            "description": "Introduction to calculus of functions of several variables: calculus on parameterized curves, derivates of functions of several variables, multiple integrals, and vector calculus.",
+            "grade": "A"     
+          },
+          {
+            "code": "Comp Sci 400",
+            "title": "Programming III",
+            "description": "Introduces balanced search trees, graphs, graph traversal algorithms, has tables and sets, and complexity analysis and about classes of problems that require each data type. Additional topics include: inheritance and polymorphism, anonymous inner classes, lambda functions, and performance analysis to discover and optimize critical code blocks. Students also learn about industry standards for code development.",
+            "grade": "A"     
+          },
+          {
+            "code": "Comp Sci 252",
+            "title": "Introduction to Computer Engineering",
+            "description": "Logic components built with transistors, rudimentary Boolean algebra, basic combinational logic design, basic synchronous sequential logic design, basic computer organization and design, and introductory machine- and assembly-language programming.",
+            "grade": "A"     
+          },
+          {
+            "code": "Stat 240",
+            "title": "Data Science Modeling I",
+            "description": "Introduces reproducible data management, modeling, analysis, and statistical inference through a practical, hands-on case studies approach. Topics include the use of an integrated statistical computing environment, data wrangling, the R programming language, data graphics and visualization, random variables and concepts of probabilitity including the binomial and normal distributions, data modeling, statistical inference in one- and two- sample settings for proportions and means, simple linear regression, and report generation using R Markdown with applications to a wide variety of data to address open-ended questions.",
+            "grade": "A"     
+          },
+          {
+            "code": "Anthro 105",
+            "title": "Principles of Biological Anthropology",
+            "description": "Genetic basis of morphological, physiological and behavioral variations within and between human populations, and their origins and evolution.",
+            "grade": "A"     
+          }
+        ]
+      },
+      {
+        "name": "Fall",
+        "courses": [
+          {
+            "code": "Math 222",
+            "title": "Calculus and Analytic Geometry 2",
+            "description": "Techniques of integration, improper integrals, first order ordinary differential equations, sequences and series, Taylor series, and vector geometry in two and three dimensions.",
+            "grade": "A"
+          },
+          {
+            "code": "Comp Sci 300",
+            "title": "Programming II",
+            "description": "Introduction to Object-Oriented Programming using classes and objects to solve more complex problems. Introduces array-based and linked data structures: including lists, stacks, and queues. Programming assignments require interfaces, generics, and exception handling. Additional topics include: abstract data types (List, Stack, Queue, Priority Queue, Binary Search Tree), generic interfaces (parametric polymorphism), complexity analysis, and recursion.",
+            "grade": "A"
+          },
+          {
+            "code": "LIS 202",
+            "title": "Divides and Differences in a Multicultural Society",
+            "description": "Explores the impact of and barriers to access to information on the lives of low-income ethnic/racial minority communities in the United States. Provides introduction to contemporary information society from a sociological perspective.",
+            "grade": "A"
+          },
+          {
+            "code": "Philos 101",
+            "title": "Introduction to Philosophy",
+            "description": "An introduction to logic, ethics, and historical philosophical arguments.",
+            "grade": "A"
+          }
+        ]
+      }
+    ]
+  }
+]

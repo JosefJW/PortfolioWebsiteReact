@@ -1,0 +1,85 @@
+[
+    {
+        "id": "1",
+        "name": "Functional Electrical Stimulation Leg Device",
+        "image": "",
+        "alt": "",
+        "github": "",
+        "demo": "",
+        "objective": "Create a device that connects to an app on the user's phone to detect critical gait events and trigger timed electrical impulses to enable smoother walking patterns.",
+        "details": "I was the lead frontend designer for the companion app for the device. I am currently designing the app to be intuitive and user friendly, and to convey the critical information needed for this kind of medical aid device.",
+        "technologies": ["React", "Firebase"],
+        "highlights": [],
+        "learned": "",
+        "status": "In Progress",
+        "tags": ["React", "Firebase", "Mobile"]
+    },
+    {
+        "id": "2",
+        "name": "Badlang Interpreter",
+        "image": "",
+        "github": "",
+        "demo": "",
+        "objective": "Build an interpreter for the custom language Badlang.",
+        "details": "Built a lexer, parser, and interpreter for Badlang, a statically scoped language supporting arithmetic expressions, control flow, and functions. Implemented recursive descent parsing, a call stack for function execution, and meaningful runtime error reporting.",
+        "technologies": ["Java"],
+        "highlights": [
+            "Tokenized source code into lexemes using a custom lexer.",
+            "Parsed expressions and statements with a hand-written recursive descent parser.",
+            "Executed code with a tree-walk interpreter and managed variable scopes."
+        ],
+        "learned": "Gained deep understanding of language design, parsing techniques, and scope management.",
+        "status": "Complete",
+        "tags": ["Interpreter", "Java"]
+    },
+    {
+        "id": "3",
+        "name": "Mini Database",
+        "github": "",
+        "demo": "",
+        "data": "",
+        "objective": "Build a lightweight relational database system supporting basic SQL-like queries.",
+        "details": "Implemented a simple in-memory database capable of executing simplified versions of core SQL commands such as SELECT and INSERT. Designed a custom parser and execution engine to interpret a minimal SQL-like language and perform basic table operations.",
+        "technologies": ["C"],
+        "highlights": [
+            "Created a query interpreter for a custom SQL-like syntax",
+            "Supported table creation, data insertion, and selection",
+            "Handled record storage and retrieval using efficient in-memory structures"
+        ],
+        "learned": "Gained experience with language parsing, data modeling, and understanding the execution model of database query engines.",
+        "status": "Prototype",
+        "tags": ["C", "Database"]
+    },
+    {
+        "id": "4",
+        "name": "Autodifferentiation",
+        "image": "",
+        "github": "https://github.com/JosefJW/Autodiff",
+        "demo": "",
+        "objective": "Implement an efficient differentiation system using dual numbers.",
+        "details": "Custom Python library supporting dual numbers for value and derivative computation. Includes arithmetic, trigonometric, exponential, and logarithmic operations, making it useful for optimization and machine learning applications.",
+        "technologies": ["Python", "NumPy"],
+        "highlights": [
+            "Implemented operator overloading to handle dual number arithmetic seamlessly",
+            "Supported chainable operations for derivatives of complex expressions",
+            "Designed to be easily integrable with other Python projects"
+        ],
+        "learned": "Gained experience with numerical methods, operator overloading, and designing reusable Python libraries.",
+        "status": "Complete",
+        "tags": ["Python", "NumPy", "Math"]
+    },
+    {
+        "id": "5",
+        "name": "Snake Rain",
+        "image": "",
+        "github": "https://github.com/JosefJW/Snake-Rain",
+        "demo": "https://josefjw.github.io/Snake-Rain/",
+        "objective": "Created a web-based puzzle game combining mechanics of Tetris and Snake for a unique gameplay experience.",
+        "details": "Players control a snake-like block that falls and fits into a grid like Tetris. Implements collision detection, line clearing, and smooth controls using JavaScript and HTML/CSS.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "highlights": [],
+        "learned": "Improved skills in DOM manipulation, event handling, and game logic design.",
+        "status": "Complete",
+        "tags": ["JavaScript", "Web", "Game"]
+    }
+]

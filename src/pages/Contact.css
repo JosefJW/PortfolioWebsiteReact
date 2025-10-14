@@ -1,0 +1,24 @@
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  padding: 5vh 5vw;
+}
+
+.contact-image {
+  width: 40vw;
+  height: auto;
+  clip-path: inset(0 10% 0 10%);
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}

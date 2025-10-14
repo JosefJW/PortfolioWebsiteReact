@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+  padding: 20px;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.toggleable {
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.5em;
+    background: #016d5b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s, font-size 0.3s;
+    min-width: 100%;
+}
+
+.toggleable:hover {
+    background: #01493d;
+    font-size: 1.3em;
+}
+
+.semesters, .courses {
+    padding: 0 15px;
+    overflow: hidden;
+    max-height: 0; /* closed by default */
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    color: rgb(247, 238, 221);
+    justify-content: center;
+    min-width: 100%;
+}
+
+.year {
+    min-width: 95%;
+}
+
+.open {
+    padding: 15px;
+    max-height: 2000px;
+}
+
+.toggleDisplays {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center;    /* horizontal centering */
+  justify-content: flex-start; /* stick to top */
+  min-height: 100vh;
+}
