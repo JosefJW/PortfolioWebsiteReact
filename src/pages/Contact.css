@@ -1,8 +1,6 @@
 .contact-page {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   gap: 5vw;
   padding: 5vh 5vw;
 }
@@ -11,10 +9,6 @@
   width: 40vw;
   height: auto;
   clip-path: inset(0 10% 0 10%);
-}
-
-.contact-info {
-  text-align: left;
 }
 
 .contact-method {

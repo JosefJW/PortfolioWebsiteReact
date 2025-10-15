@@ -4,7 +4,7 @@ export default function Project({ project }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className="project">
       <div className="toggleable" onClick={() => setIsOpen(!isOpen)}>
         {project.name}
       </div>

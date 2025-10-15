@@ -5,7 +5,7 @@ export default function Semester({ semester }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className="semester">
       <div className="toggleable" onClick={() => setIsOpen(!isOpen)}>
         {semester.name}
       </div>

@@ -5,7 +5,7 @@ export default function Year({ yearData }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className="year">
       <div className="toggleable" onClick={() => setIsOpen(!isOpen)}>
         {yearData.year}
       </div>

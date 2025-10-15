@@ -27,7 +27,7 @@ main {
     cursor: pointer;
     border-radius: 10px;
     transition: background 0.3s, font-size 0.3s;
-    min-width: 100%;
+    width: 100%;
 }
 
 .toggleable:hover {
@@ -55,9 +55,13 @@ main {
 }
 
 .toggleDisplays {
-  display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: center;    /* horizontal centering */
-  justify-content: flex-start; /* stick to top */
   min-height: 100vh;
+}
+
+.project, .year {
+    width: calc(var(--app-width) * 0.95);
+}
+
+.semester {
+    width: var(--app-width);
 }
