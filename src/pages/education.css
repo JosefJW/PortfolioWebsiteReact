@@ -19,7 +19,8 @@ main {
 }
 
 .toggleable {
-    margin: 10px 0;
+    display: block;
+    margin: 10px auto;
     padding: 15px;
     font-size: 1.5em;
     background: #016d5b;
@@ -27,7 +28,7 @@ main {
     cursor: pointer;
     border-radius: 10px;
     transition: background 0.3s, font-size 0.3s;
-    width: 100%;
+    width: 90%;
 }
 
 .toggleable:hover {
@@ -35,18 +36,24 @@ main {
     font-size: 1.3em;
 }
 
+.project {
+    width: 100%;
+}
+
 .semesters, .courses {
+    display: block;
     padding: 0 15px;
     overflow: hidden;
     max-height: 0; /* closed by default */
     transition: max-height 0.3s ease, padding 0.3s ease;
     color: rgb(247, 238, 221);
     justify-content: center;
-    min-width: 100%;
 }
 
-.year {
-    min-width: 95%;
+.courses {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
 }
 
 .open {
@@ -56,12 +63,4 @@ main {
 
 .toggleDisplays {
   min-height: 100vh;
-}
-
-.project, .year {
-    width: calc(var(--app-width) * 0.95);
-}
-
-.semester {
-    width: var(--app-width);
 }

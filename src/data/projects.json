@@ -1,5 +1,24 @@
 [
     {
+        "id": "6",
+        "name": "Reelfindr",
+        "image": "",
+        "alt": "",
+        "github": "https://github.com/CS571-F25/p11",
+        "demo": "https://reelfindr.vercel.app",
+        "objective": "Create a website to allow users to easily find, learn about, and comment on movies and add them to a personal watchlist.",
+        "details": "Worked with a small team to create Reelfindr. Users can securely create accounts, search through the entire movie catalog, leave comments, and add movies to personal watchlists.",
+        "technologies": ["React", "Convex"],
+        "highlights": [
+            "Built an accessible website that meets WCAG AA standards and can be used with screen readers.",
+            "Implemented secure user authentication and profile features.",
+            "Developed live commenting system for movies."
+        ],
+        "learned": "Gained experience with full-stack React development, authentication, database integration with Convex, and collaborative team workflows.",
+        "status": "Complete",
+        "tags": ["React"]
+    },
+    {
         "id": "1",
         "name": "Functional Electrical Stimulation Leg Device",
         "image": "",
@@ -16,21 +35,21 @@
     },
     {
         "id": "2",
-        "name": "Badlang Interpreter",
+        "name": "Badlang Compiler",
         "image": "",
-        "github": "",
+        "github": "https://github.com/JosefJW/BadlangCompiler",
         "demo": "",
-        "objective": "Build an interpreter for the custom language Badlang.",
-        "details": "Built a lexer, parser, and interpreter for Badlang, a statically scoped language supporting arithmetic expressions, control flow, and functions. Implemented recursive descent parsing, a call stack for function execution, and meaningful runtime error reporting.",
+        "objective": "Build a MIPS compiler for the custom language Badlang.",
+        "details": "Built a lexer, parser, name/type checking system, and code generator to translate Badlang into MIPS assembly. Badlang is a statically scoped language that supports arithmetic expressions, control flow, and functions. Implemented recursive descent parsing, a call stack for function execution, and meaningful error reporting.",
         "technologies": ["Java"],
         "highlights": [
-            "Tokenized source code into lexemes using a custom lexer.",
-            "Parsed expressions and statements with a hand-written recursive descent parser.",
-            "Executed code with a tree-walk interpreter and managed variable scopes."
+            "Implemented detailed error reporting showing the error type, line, and characters involved in the error.",
+            "Implemented error aggregation to show related errors together for easy viewing.",
+            "Built the compilation pipeline from scratch to successfully convert a Badlang file into MIPS assembly."
         ],
-        "learned": "Gained deep understanding of language design, parsing techniques, and scope management.",
+        "learned": "Gained deep understanding of language design, parsing techniques, error displaying, and scope management.",
         "status": "Complete",
-        "tags": ["Interpreter", "Java"]
+        "tags": ["Compiler", "Java"]
     },
     {
         "id": "3",

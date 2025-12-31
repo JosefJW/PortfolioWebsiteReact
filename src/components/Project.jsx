@@ -10,7 +10,7 @@ export default function Project({ project }) {
       </div>
       <div className={`courses ${isOpen ? "open" : ""}`}>
         { /* Image (if provided) */}
-        {project.image && (<img src={project.image} alt={project.alt || project.name}/>)}
+        {project.image && (<img src={project.image} alt={project.alt || project.name} style={{width: '50%'}}/>)}
         { /* Github (if provided) */ }
         {project.github && (<a href={project.github}>Github</a>)}
         { /* Demo (if provided) */ }

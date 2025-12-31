@@ -3,32 +3,72 @@
     "year": "2025-26",
     "semesters": [
       {
+        "name": "Fall (In Progress)",
+        "courses": [
+          {
+            "code": "Comp Sci 506",
+            "title": "Software Engineering",
+            "description": "Ideas and techniques for designing, developing, and modifying large software systems."
+          },
+          {
+            "code": "Comp Sci 544",
+            "title": "Introduction to Big Data Systems",
+            "description": "Deploy and use distributed systems to store and analyze large datasets. Learn unstructured and structured approaches to storage and how to analyze using query languages, process streaming data, and train machine learning models."
+          },
+          {
+            "code": "Comp Sci 564",
+            "title": "Database Management Systems",
+            "description": "What a database management system is; different data models currently used to structure the logical view of the database: relational, hierarchical, and network. Hands-on experience with relational and network-based database systems. Implementation techniques for database systems. File organization, query processing, concurrency control, rollback and recovery, integrity and consistency, and view implementation."
+          },
+          {
+            "code": "Classics 322",
+            "title": "The Romans",
+            "description": "Latin literature in translation with emphasis on its social background."
+          },
+          {
+            "code": "Entom 201",
+            "title": "Insects and Human Culture",
+            "description": "Importance of insects in the environment, emphasizing beneficial insects, disease carriers, and agricultural pests that interfere with the food supply. Environmental problems due to insect control agents."
+          },
+          {
+            "code": "Art 100",
+            "title": "Introduction to Art",
+            "description": "Seek answers to the fundamental question \"What is art?\" from multiple perspectives such as historical, theoretical, critical, conceptual, formal, and experiential."
+          }
+        ]
+      },
+      {
         "name": "Spring",
         "courses": [
           {
             "code": "Comp Sci 571",
             "title": "Building User Interfaces",
-            "description": "Build competence in implementing state of the art UI paradigms, such as event-driven interfaces, direct-manipulation interfaces, and dialogue-based interaction. Learn methods for capturing, interpreting, and responding to different forms of user input and states."
+            "description": "Build competence in implementing state of the art UI paradigms, such as event-driven interfaces, direct-manipulation interfaces, and dialogue-based interaction. Learn methods for capturing, interpreting, and responding to different forms of user input and states.",
+            "grade": "A"
           },
           {
             "code": "Comp Sci 536",
             "title": "Introduction to Programming Languages and Compilers",
-            "description": "Introduction to the theory and practice of compiler design. Comparison of features of several programming languages and their implications for implementation techniques."
+            "description": "Introduction to the theory and practice of compiler design. Comparison of features of several programming languages and their implications for implementation techniques.",
+            "grade": "A"
           },
           {
             "code": "Stat 309",
             "title": "Introduction to Probability and Mathematical Statistics I",
-            "description": "Probability and combinatorial methods, discrete and continuous, univariate and multivariate distributions, expected values, moments, normal distribution and derived distributions, estimation."
+            "description": "Probability and combinatorial methods, discrete and continuous, univariate and multivariate distributions, expected values, moments, normal distribution and derived distributions, estimation.",
+            "grade": "A"
           },
           {
             "code": "LIS 461",
             "title": "Data and Algorithms: Ethics and Policy",
-            "description": "An introduction to ethical, legal, and policy issues related to analytics, big data, and algorithms to support decision making."
+            "description": "An introduction to ethical, legal, and policy issues related to analytics, big data, and algorithms to support decision making.",
+            "grade": "A"
           },
           {
             "code": "Engl 176",
             "title": "Topics in Literature and Film",
-            "description": "An introduction to the interplay of literature and film in English, with a focus on the analysis of novels, stories, poems and other writings and their representation and transformation in and through film."
+            "description": "An introduction to the interplay of literature and film in English, with a focus on the analysis of novels, stories, poems and other writings and their representation and transformation in and through film.",
+            "grade": "A"
           }
         ]
       }
