@@ -1,5 +1,24 @@
 [
     {
+        "id": "7",
+        "name": "Grabbit",
+        "image": "",
+        "alt": "",
+        "github": "https://github.com/JosefJW/ResourceScheduler",
+        "demo": "",
+        "objective": "Create a website to allow users to easily reserve items based on item category.",
+        "details": "Created a full-stack application to allow users to create profiles, join families, add items to families, and reserve those items for periods based on their specified item category.",
+        "technologies": ["C#", ".NET", "Axios", "TypeScript", "React", "Tailwind"],
+        "highlights": [
+            "Built a full-stack category-based reservation application with a React + TypeScript frontend and a C# .NET backend.",
+            "Designed and implemented a REST API with CRUD operations, JWT-based authentication, and transactional database logic using EF Core and PostgreSQL.",
+            "Integrated frontend and backend using Axios and built a responsive UI with Tailwind."
+        ],
+        "learned": "Gained experience with full-stack development, using C# with .NET, creating RESTful APIs, and integrating a frontend and backend using Axios.",
+        "status": "In Progress",
+        "tags": ["React", "C#", ".NET", "Axios", "TypeScript", "Tailwind", "API", "REST"]
+    },
+    {
         "id": "6",
         "name": "Reelfindr",
         "image": "",
